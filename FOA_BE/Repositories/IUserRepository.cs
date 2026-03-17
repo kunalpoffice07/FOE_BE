@@ -5,5 +5,7 @@ namespace FOA_BE.Repositories
     public interface IUserRepository
     {
         Task<User> CreateOrder(User user);
+        Task<User> GetUserById(Guid id); 
+
     }
 }

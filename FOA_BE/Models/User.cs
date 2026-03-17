@@ -1,6 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Runtime.CompilerServices;
+using static FOA_BE.Enum.Enumeration;
 
 namespace FOA_BE.Models
 {
@@ -28,5 +29,8 @@ namespace FOA_BE.Models
 
         [Column("user_created_at")]
         public DateTime CreatedAt { get; set; } 
+
+        [Column("user_role")]
+        public USER_ROLE UserRole { get; set; } 
     }
 }

@@ -111,3 +111,13 @@ E:\Project\FOA_BE\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\Project\FOA_BE\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Project\FOA_BE\obj\Debug\net8.0\FOA_BE.MvcApplicationPartsAssemblyInfo.cs
 E:\Project\FOA_BE\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Project\FOA_BE\bin\Debug\net8.0\BCrypt.Net-Next.dll
+E:\Project\FOA_BE\obj\Debug\net8.0\FOA_BE.sourcelink.json
+E:\Project\FOA_BE\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Project\FOA_BE\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Project\FOA_BE\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Project\FOA_BE\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+E:\Project\FOA_BE\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+E:\Project\FOA_BE\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Project\FOA_BE\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\Project\FOA_BE\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

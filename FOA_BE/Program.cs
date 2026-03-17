@@ -1,10 +1,15 @@
 
 using System.Numerics;
+using System.Security.Cryptography;
+using System.Text;
 using FOA_BE.Data;
+using FOA_BE.Jwt;
 using FOA_BE.Middleware;
 using FOA_BE.Repositories;
 using FOA_BE.Services;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using Serilog;
 
 namespace FOA_BE
@@ -30,7 +35,34 @@ namespace FOA_BE
             //Adding DI
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<JwtTokenGenerator>();
 
+            var jwt = builder.Configuration.GetSection("Jwt");
+
+            builder.Services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(
+                options =>
+                {
+                    options.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        ValidateIssuer = true,
+                        ValidateAudience = true,
+                        ValidateLifetime = true,
+                        ValidateIssuerSigningKey = true,
+
+                        ValidIssuer = jwt["Issuer"],
+                        ValidAudience = jwt["Audience"],
+                        IssuerSigningKey = new SymmetricSecurityKey(
+                            Encoding.UTF8.GetBytes(jwt["Key"]))
+                    };
+                });
+
+            builder.Services.AddAuthentication();
+
+            builder.Services.AddAuthorization();
 
             // Add services to the container.
             builder.Services.AddControllers();
@@ -51,6 +83,8 @@ namespace FOA_BE
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseAuthentication();
 
             app.UseAuthorization();
 

@@ -24,5 +24,18 @@ namespace FOA_BE.Controllers
 
             return Ok(result);
         }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetUserById(Guid id)
+        {
+            var user = await _userService.GetUserById(id);
+
+            if (user is null)
+            {
+                NotFound("User not found");
+            }
+
+            return Ok(user);
+        }
     }
 }

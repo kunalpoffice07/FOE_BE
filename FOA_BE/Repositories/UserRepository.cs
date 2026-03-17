@@ -16,14 +16,17 @@ namespace FOA_BE.Repositories
         }
 
         public async Task<User> CreateOrder(User user)
-        {
-            _logger.LogInformation($"Creationg Order in {nameof(UserRepository)}");
-
+        {       
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
             return user;
 
+        }
+
+        public async Task<User?> GetUserById(Guid id)
+        {
+            return await _context.Users.FindAsync(id);
         }
     }
 }
