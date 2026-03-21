@@ -10,7 +10,7 @@ namespace FOA_BE.Models
     {
         [Key]
         [Column("user_id")]
-        public Guid UserId { get; set; }
+        public Guid UserId { get; set; } = new Guid();
 
         [Column("user_name")]
         public string UserName { get; set; }
@@ -28,9 +28,9 @@ namespace FOA_BE.Models
         public string Address {  get; set; }
 
         [Column("user_created_at")]
-        public DateTime CreatedAt { get; set; } 
+        public DateTime CreatedAt { get; set; }
 
         [Column("user_role")]
-        public USER_ROLE UserRole { get; set; } 
+        public USER_ROLE UserRole { get; set; } = USER_ROLE.USER;
     }
 }

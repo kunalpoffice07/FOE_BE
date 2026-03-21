@@ -3,68 +3,92 @@
   "WorkspaceRootPath": "E:\\Project\\FOA_BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\enum\\enumeration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:enum\\enumeration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\foa_be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:foa_be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\dtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:dtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\jwt\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:jwt\\jwttokengenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\dtos\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:dtos\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\enum\\enumeration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:enum\\enumeration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:middleware\\loggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\dtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:dtos\\getuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\foa_be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:foa_be.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|e:\\project\\foa_be\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{25F86992-C3EC-4064-A437-52514C9F7AA3}|FOA_BE.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -74,8 +98,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 23,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Project\\FOA_BE\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Project\\FOA_BE\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA8AAADgzMzMzOw8wBgAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-11T17:49:26.559Z",
+              "IsPinned": true
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -98,45 +135,158 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Enumeration.cs",
-              "DocumentMoniker": "E:\\Project\\FOA_BE\\Enum\\Enumeration.cs",
-              "RelativeDocumentMoniker": "Enum\\Enumeration.cs",
-              "ToolTip": "E:\\Project\\FOA_BE\\Enum\\Enumeration.cs",
-              "RelativeToolTip": "Enum\\Enumeration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 6,
+              "Title": "UserResponseDto.cs",
+              "DocumentMoniker": "E:\\Project\\FOA_BE\\DTOs\\UserResponseDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserResponseDto.cs",
+              "ToolTip": "E:\\Project\\FOA_BE\\DTOs\\UserResponseDto.cs",
+              "RelativeToolTip": "DTOs\\UserResponseDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T17:14:08.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FOA_BE",
-              "DocumentMoniker": "E:\\Project\\FOA_BE\\FOA_BE.csproj",
-              "RelativeDocumentMoniker": "FOA_BE.csproj",
-              "ToolTip": "E:\\Project\\FOA_BE\\FOA_BE.csproj",
-              "RelativeToolTip": "FOA_BE.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-17T17:13:15.827Z",
+              "WhenOpened": "2026-03-21T15:50:15.235Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\Project\\FOA_BE\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "E:\\Project\\FOA_BE\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAsAAABgMzMzM3MiwBcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T13:57:22.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\Project\\FOA_BE\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "E:\\Project\\FOA_BE\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AQIAABEAAACA/////38YwBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T13:53:19.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "E:\\Project\\FOA_BE\\DTOs\\LoginDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
+              "ToolTip": "E:\\Project\\FOA_BE\\DTOs\\LoginDto.cs",
+              "RelativeToolTip": "DTOs\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T13:52:26.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "E:\\Project\\FOA_BE\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "E:\\Project\\FOA_BE\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T13:51:24.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtTokenGenerator.cs",
+              "DocumentMoniker": "E:\\Project\\FOA_BE\\Jwt\\JwtTokenGenerator.cs",
+              "RelativeDocumentMoniker": "Jwt\\JwtTokenGenerator.cs",
+              "ToolTip": "E:\\Project\\FOA_BE\\Jwt\\JwtTokenGenerator.cs",
+              "RelativeToolTip": "Jwt\\JwtTokenGenerator.cs",
+              "ViewState": "AQIAAA8AAAAgZmZmZuYjwBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T13:31:00.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "E:\\Project\\FOA_BE\\Middleware\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "Middleware\\ExceptionMiddleware.cs",
               "ToolTip": "E:\\Project\\FOA_BE\\Middleware\\ExceptionMiddleware.cs",
               "RelativeToolTip": "Middleware\\ExceptionMiddleware.cs",
-              "ViewState": "AQIAAAMAAABAMzMzM/MqwA8AAAAZAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwB0AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-15T16:26:06.397Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\Project\\FOA_BE\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "E:\\Project\\FOA_BE\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAACcAAAAAnJmZmZkKwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T17:52:34.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "E:\\Project\\FOA_BE\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "E:\\Project\\FOA_BE\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T16:40:36.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\Project\\FOA_BE\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\Project\\FOA_BE\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\UserRepository.cs",
+              "ViewState": "AQIAACMAAAAAMTMzMzMMwBwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T16:33:16.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\Project\\FOA_BE\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "E:\\Project\\FOA_BE\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T16:31:43.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "E:\\Project\\FOA_BE\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UserDto.cs",
+              "ToolTip": "E:\\Project\\FOA_BE\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "DTOs\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T16:46:45.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\Project\\FOA_BE\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -144,122 +294,74 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-11T16:26:21.32Z",
+              "WhenOpened": "2026-03-11T16:26:21.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FOA_BE.csproj",
+              "DocumentMoniker": "E:\\Project\\FOA_BE\\FOA_BE.csproj",
+              "RelativeDocumentMoniker": "FOA_BE.csproj",
+              "ToolTip": "E:\\Project\\FOA_BE\\FOA_BE.csproj",
+              "RelativeToolTip": "FOA_BE.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-17T17:13:15.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Enumeration.cs",
+              "DocumentMoniker": "E:\\Project\\FOA_BE\\Enum\\Enumeration.cs",
+              "RelativeDocumentMoniker": "Enum\\Enumeration.cs",
+              "ToolTip": "E:\\Project\\FOA_BE\\Enum\\Enumeration.cs",
+              "RelativeToolTip": "Enum\\Enumeration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T17:14:08.579Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Project\\FOA_BE\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Project\\FOA_BE\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAACMAAACA/v///38dwD4AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-11T17:49:26.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "E:\\Project\\FOA_BE\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
-              "ToolTip": "E:\\Project\\FOA_BE\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "Controllers\\UsersController.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T17:52:34.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "E:\\Project\\FOA_BE\\DTOs\\UserDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\UserDto.cs",
-              "ToolTip": "E:\\Project\\FOA_BE\\DTOs\\UserDto.cs",
-              "RelativeToolTip": "DTOs\\UserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T16:46:45.559Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "E:\\Project\\FOA_BE\\Services\\IUserService.cs",
-              "RelativeDocumentMoniker": "Services\\IUserService.cs",
-              "ToolTip": "E:\\Project\\FOA_BE\\Services\\IUserService.cs",
-              "RelativeToolTip": "Services\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T16:40:36.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "E:\\Project\\FOA_BE\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\UserRepository.cs",
-              "ToolTip": "E:\\Project\\FOA_BE\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Repositories\\UserRepository.cs",
-              "ViewState": "AQIAAAYAAACAAAAAAIAZwBwAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T16:33:16.366Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "E:\\Project\\FOA_BE\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IUserRepository.cs",
-              "ToolTip": "E:\\Project\\FOA_BE\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "Repositories\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T16:31:43.662Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\Project\\FOA_BE\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\UserService.cs",
               "ToolTip": "E:\\Project\\FOA_BE\\Services\\UserService.cs",
               "RelativeToolTip": "Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAkAAAA",
+              "ViewState": "AQIAABQAAAAAzszMzAwvwGEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T16:41:57.359Z"
+              "WhenOpened": "2026-03-15T16:41:57.359Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "GetUserDto.cs",
               "DocumentMoniker": "E:\\Project\\FOA_BE\\DTOs\\GetUserDto.cs",
               "RelativeDocumentMoniker": "DTOs\\GetUserDto.cs",
               "ToolTip": "E:\\Project\\FOA_BE\\DTOs\\GetUserDto.cs",
               "RelativeToolTip": "DTOs\\GetUserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T17:43:15.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "User.cs",
               "DocumentMoniker": "E:\\Project\\FOA_BE\\Models\\User.cs",
               "RelativeDocumentMoniker": "Models\\User.cs",
               "ToolTip": "E:\\Project\\FOA_BE\\Models\\User.cs",
               "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAzwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T17:18:52.536Z"
+              "WhenOpened": "2026-03-12T17:18:52.536Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 21,
               "Title": "launchSettings.json",
               "DocumentMoniker": "E:\\Project\\FOA_BE\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -271,19 +373,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 8,
               "Title": "LoggingMiddleware.cs",
               "DocumentMoniker": "E:\\Project\\FOA_BE\\Middleware\\LoggingMiddleware.cs",
               "RelativeDocumentMoniker": "Middleware\\LoggingMiddleware.cs",
               "ToolTip": "E:\\Project\\FOA_BE\\Middleware\\LoggingMiddleware.cs",
               "RelativeToolTip": "Middleware\\LoggingMiddleware.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T13:38:46.83Z"
+              "WhenOpened": "2026-03-15T13:38:46.83Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "E:\\Project\\FOA_BE\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",

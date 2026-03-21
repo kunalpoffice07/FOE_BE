@@ -1,6 +1,6 @@
 ﻿using FOA_BE.DTOs;
-using FOA_BE.Services;
-using Microsoft.AspNetCore.Http;
+using FOA_BE.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FOA_BE.Controllers
@@ -25,6 +25,7 @@ namespace FOA_BE.Controllers
             return Ok(result);
         }
 
+        [Authorize(Roles = "ADMIN")]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUserById(Guid id)
         {
@@ -37,5 +38,31 @@ namespace FOA_BE.Controllers
 
             return Ok(user);
         }
+
+        [Authorize]
+        [HttpGet("me")]
+        public async Task<IActionResult> GetMe()
+        {
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
+
+            if (userId is null)
+            {
+                return Unauthorized();
+            }
+
+            var user = await _userService.GetUserById(Guid.Parse(userId.ToString()));
+
+            return Ok(user);
+        }
+
+        [Authorize(Roles = "ADMIN")]
+        [HttpGet("all")]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            return Ok(await _userService.GetAllUsers());
+        }
+
+
+
     }
 }
