@@ -11,5 +11,6 @@ namespace FOA_BE.Repositories.Interfaces
         Task<List<GetUserDto>> GetAllUSers();
         Task DeleteUser(User user);
         Task UpdateUser(User user);
+        Task SaveChangesAsync();
     }
 }

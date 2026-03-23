@@ -20,8 +20,6 @@ namespace FOA_BE.Repositories
         public async Task<User> CreateOrder(User user)
         {
             _context.Users.Add(user);
-            await _context.SaveChangesAsync();
-
             return user;
 
         }
@@ -53,12 +51,16 @@ namespace FOA_BE.Repositories
         public async Task DeleteUser(User user)
         {
             _context.Users.Remove(user);    
-            await _context.SaveChangesAsync();
         }
 
         public async Task UpdateUser(User user)
         {
             _context.Users.Update(user);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task SaveChangesAsync()
+        {
             await _context.SaveChangesAsync();
         }
     }

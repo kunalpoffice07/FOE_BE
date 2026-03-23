@@ -2,6 +2,7 @@
 using FOA_BE.Models;
 using FOA_BE.Repositories.Interfaces;
 using FOA_BE.Services.Interfaces;
+using System.Runtime.InteropServices;
 
 namespace FOA_BE.Services
 {
@@ -38,6 +39,7 @@ namespace FOA_BE.Services
             };
 
             var userResponseDto = await _userRepository.CreateOrder(user);
+            await _userRepository.SaveChangesAsync();
 
             return new UserResponseDto
             {
@@ -81,22 +83,44 @@ namespace FOA_BE.Services
             var user = await _userRepository.GetUserById(id);
             if (user is null)
             {
-                throw new Exception("User doesnot exists");
+                throw new Exception("User not found");
             }
 
-          await _userRepository.DeleteUser(user);          
-
+            await _userRepository.DeleteUser(user);
+            await _userRepository.SaveChangesAsync();
         }
-        public async Task UpdateUserById(Guid id)
+
+        public async Task UpdateUser(Guid id, UpdateUserDto updateUserDto)
         {
             var user = await _userRepository.GetUserById(id);
             if (user is null)
             {
-                throw new Exception("User doesnot exists");
+                throw new Exception("User not found");
             }
 
+            user.UserName = updateUserDto.UserName ?? user.UserName;
+            user.Phone = updateUserDto?.Phone ?? user.Phone;
+            user.Email = updateUserDto?.Email ?? user.Email;
+            user.Address = updateUserDto?.Address ?? user.Address;
 
-
+            await _userRepository.SaveChangesAsync();
         }
+
+        public async Task UpdateUserByAdmin(Guid id, AdminUpdateUserDto adminUpdateUserDto)
+        {
+            var user = await _userRepository.GetUserById(id);
+
+            if (user is null)
+            {
+                throw new Exception("User not found");
+            }
+
+            user.UserName = adminUpdateUserDto.UserName ?? user.UserName;
+            user.Phone = adminUpdateUserDto.Phone ?? user.Phone;
+            user.Address = adminUpdateUserDto.Address ?? user.Address;
+
+            await _userRepository.SaveChangesAsync();
+        }
+
     }
 }

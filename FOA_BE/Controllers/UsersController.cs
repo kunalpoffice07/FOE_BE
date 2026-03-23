@@ -2,6 +2,7 @@
 using FOA_BE.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace FOA_BE.Controllers
 {
@@ -62,7 +63,31 @@ namespace FOA_BE.Controllers
             return Ok(await _userService.GetAllUsers());
         }
 
+        [Authorize]
+        [HttpPut("me")]
+        public async Task<IActionResult> UpdateMe(UpdateUserDto updateUserDto)
+        {
+            var userId = User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value;
 
+            await _userService.UpdateUser(Guid.Parse(userId), updateUserDto);
 
+            return Ok("User updated");
+        }
+
+        [Authorize(Roles = "ADMIN")]
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateUser(Guid id, AdminUpdateUserDto updateUserDto)
+        {
+            await _userService.UpdateUserByAdmin(id, updateUserDto);
+            return Ok("User updated");
+        }
+
+        [Authorize(Roles ="ADMIN")]
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteUserById(Guid id)
+        {
+            await _userService.DeleteUserById(id);
+            return Ok("User deleted");
+        }
     }
 }

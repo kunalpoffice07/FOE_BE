@@ -9,7 +9,8 @@ namespace FOA_BE.Services.Interfaces
         Task<GetUserDto> GetUserById(Guid id);
         Task<List<GetUserDto>> GetAllUsers();
         Task DeleteUserById(Guid id);
-        Task UpdateUserById(Guid id);
+        Task UpdateUser(Guid id, UpdateUserDto updateUserDto);
+        Task UpdateUserByAdmin(Guid id, AdminUpdateUserDto adminUpdateUserDto);
 
     }
 }

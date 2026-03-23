@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FOA_BE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ece68c4356fd038d3f89b13b4f0a1707779ad716")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5482d5625196a7999014d9cd9589d39e641fdb7")]
 [assembly: System.Reflection.AssemblyProductAttribute("FOA_BE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FOA_BE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
